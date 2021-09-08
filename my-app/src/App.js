@@ -1,6 +1,4 @@
-import './App.css';
 import {Switch, Route} from 'react-router-dom'
-import Genre from './Genre';
 import Home from './Home';
 
 const App = () => {
@@ -8,9 +6,6 @@ const App = () => {
     <Switch>
       <Route exact path={"/"} >
         <Home />
-      </Route>
-      <Route path={"/genre"}>
-        <Genre />
       </Route>
     </Switch>
   );
